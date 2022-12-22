@@ -1,0 +1,22 @@
+.expense-item {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0.2em 0;
+  max-width: 30em;
+  padding: 0.5em;
+}
+
+/* .expense-item div:nth-child(1),
+.expense-item div:nth-child(2)
+ {
+  margin-right: 0.6em;
+} */
+
+.expense-item__title {
+  padding: 0;
+  overflow: hidden;
+}
